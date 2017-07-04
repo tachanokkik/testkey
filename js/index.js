@@ -6,8 +6,7 @@ window.addEventListener("keydown", function(event) {
             "' | shiftKey='" + event.shiftKey + "' " +
             "' | altKey='" + event.altKey + "' " +
             "' | metaKey='" + event.metaKey + "' " +
-            "' | repeat='" + event.repeat + "' " +
-            "' | isComposing='" + event.isComposing + "' ";
+            "' | repeat='" + event.repeat + "' ";
   let el = document.createElement("span");
   el.innerHTML = str + "<br/>";
 
@@ -21,8 +20,7 @@ window.addEventListener("keyup", function(event) {
             "' | shiftKey='" + event.shiftKey + "' " +
             "' | altKey='" + event.altKey + "' " +
             "' | metaKey='" + event.metaKey + "' " +
-            "' | repeat='" + event.repeat + "' " +
-            "' | isComposing='" + event.isComposing + "' ";
+            "' | repeat='" + event.repeat + "' ";
   let el = document.createElement("span");
   el.innerHTML = str + "<br/>";
 
@@ -36,8 +34,7 @@ window.addEventListener("keypress", function(event) {
             "' | shiftKey='" + event.shiftKey + "' " +
             "' | altKey='" + event.altKey + "' " +
             "' | metaKey='" + event.metaKey + "' " +
-            "' | repeat='" + event.repeat + "' " +
-            "' | isComposing='" + event.isComposing + "' ";
+            "' | repeat='" + event.repeat + "' ";
   let el = document.createElement("span");
   el.innerHTML = str + "<br/>";
 
