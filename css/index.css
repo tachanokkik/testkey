@@ -1,0 +1,18 @@
+#output-down {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid red;
+  color: red;
+  font-size: 12px;
+}
+#output-up {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid green;
+  color: green;
+  font-size: 12px;
+}
+#output-press {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 12px;
+}
